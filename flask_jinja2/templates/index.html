@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>白嫖{{ title }}</title>
+</head>
+<body>
+<!-- Trigger -->
+<button id="btn" class="btn btn-success btn-lg" data-clipboard-text="{{ vpn.vmess }}">
+    Copy to clipboard
+</button>
+</body>
+
+
+
+<script>
+new ClipboardJS('#btn');
+</script>
+
+</html>
